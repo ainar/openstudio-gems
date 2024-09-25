@@ -33,6 +33,7 @@ if LOCAL_DEV
   if !MINIMAL_GEMS
     gem 'tbd', path: '../tbd'
     gem 'osut', path: '../osut'
+    gem 'webrick', '~> 1.8.2'
     gem 'openstudio-standards', '= 0.6.1', path: '../openstudio-standards'
     gem 'openstudio-extension', '= 0.8.0', path: '../openstudio-extension-gem'
     gem 'openstudio-workflow', '= 2.4.0', path: '../OpenStudio-workflow-gem'
@@ -58,6 +59,7 @@ elsif !FINAL_PACKAGE
   if !MINIMAL_GEMS
     gem 'tbd', '= 3.4.2'
     gem 'osut', '= 0.5.0'
+    gem 'webrick', '~> 1.8.2'
 
     # gem 'openstudio-standards', '= 0.6.0.rc1', :github => 'NREL/openstudio-standards', :ref => 'v0.6.0.rc1'
     # gem 'openstudio-extension', '= 0.8.0',:github => 'NREL/openstudio-extension-gem', :ref => '2e86077dce1688443cca462feda3239ef47c232c'
@@ -98,6 +100,7 @@ else
   if !MINIMAL_GEMS
     gem 'tbd', '= 3.4.2'
     gem 'osut', '= 0.5.0'
+    gem 'webrick', '~> 1.8.2'
 
     gem 'openstudio-standards', '= 0.6.1'
     gem 'openstudio-extension', '= 0.8.0'
